@@ -33,7 +33,7 @@ if(user!=null){
 
         <button onClick={iniciarSesion}   className="btniniciar">
           <img src={logogoogle} />
-          <span> Iniciar con Gmail Actualizado</span>
+          <span> Iniciar con Gmail</span>
         </button>
       </section>
     </Container>
