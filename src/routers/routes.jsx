@@ -9,7 +9,7 @@ export function MyRoutes() {
   const RequireAuth =({children})=>{
     return user?children: <Navigate to={"/login"}/>;
   }
-  return (<BrowserRouter>
+  return (
   <Routes>
     <Route path="/" element={<RequireAuth>
       <Home/>
@@ -19,5 +19,5 @@ export function MyRoutes() {
       <Perfil/>
     </ProtectorRuta>}/>
   </Routes>
-  </BrowserRouter>);
+ );
 }
