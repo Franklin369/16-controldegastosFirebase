@@ -1,3 +1,5 @@
+import {IoIosArrowDown} from "react-icons/io"
+import {RiVipCrownFill} from "react-icons/ri"
 export const v={
     sidebarWidth: `300px`,
     sidebarWidthInitial: `10vw`,
@@ -14,5 +16,8 @@ export const v={
    darkbackground:`linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898`,
    darkcheckbox: `#757575`,
    background: `linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898`,
-   checkbox: `#292929`
+   checkbox: `#292929`,
+   iconoFlechabajo:IoIosArrowDown,
+   iconocorona:RiVipCrownFill,
+
 }

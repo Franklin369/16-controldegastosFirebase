@@ -6,11 +6,10 @@ import { ThemeProvider } from "styled-components";
 import { Light, Dark } from "./styles/Themes";
 import { Sidebar } from "./components/Sidebar";
 import { BrowserRouter } from "react-router-dom";
-import { UserAuth } from "./context/AuthContext";
+import {UserAuth} from "./context/AuthContext"
 export const ThemeContext = createContext(null);
 function App() {
-  const { user } = UserAuth();
-
+const {user} = UserAuth();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [theme, setTheme] = useState("light");
   const themeStyle = theme === "light" ? Light : Dark;
@@ -21,12 +20,14 @@ function App() {
         <ThemeProvider theme={themeStyle}>
           <BrowserRouter>
             <Container className={sidebarOpen ? "active" : ""}>
-              {user?.uid ? (
-                <Sidebar
+             {
+              user?.uid?  ( <Sidebar
                   sidebarOpen={sidebarOpen}
                   setSidebarOpen={setSidebarOpen}
-                />
-              ) : null}
+                />):null
+             }
+               
+             
 
               <MyRoutes />
             </Container>
@@ -42,6 +43,7 @@ const Container = styled.div`
   background: ${({ theme }) => theme.bgtotal};
   transition: all 0.3s;
   min-height:100vh;
+  color: ${({theme})=>theme.text};
   &.active {
     grid-template-columns: 220px 1fr;
   }

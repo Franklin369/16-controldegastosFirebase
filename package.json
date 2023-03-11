@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rsuite/icons": "^1.0.2",
     "firebase": "^9.17.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.8.2",
+    "rsuite": "^5.28.1",
     "styled-components": "^5.3.8"
   },
   "devDependencies": {
