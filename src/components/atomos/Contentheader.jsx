@@ -11,5 +11,5 @@ const Container =styled.div`
   align-items:center;
   position:relative;
   justify-content:end;
-  background-color:red;
+ 
 `

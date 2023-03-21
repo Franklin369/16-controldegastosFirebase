@@ -18,9 +18,9 @@ export const Light = {
   bgAlpha: "rgba(250,250,250,.3)",
   bg2: "rgb(245,245,245)",
   bg3: "#fff",
-  text: "rgb(45,45,45)",
+  
   primary: "rgb(52, 131, 235)",
-  bg4: "#9247FC",
+  bg4: "#eaeaea",
   bgtotal: "#EDF3FB",
   bgtgderecha: "#fff",
   barrascroll: "#a8a7a7",
@@ -68,9 +68,9 @@ export const Dark = {
   bgAlpha: "rgba(0,0,0,.3)",
   bg2: "rgb(30,30,30)",
   bg3: "#2C2C2E",
-  text: "rgb(210,210,210)",
+ 
   primary: "rgb(52, 131, 235)",
-  bg4: "#9247FC",
+  bg4: "#4E4E50",
   bgtotal: "#21252B",
   barrascroll: "#A18AFF",
   gray900: "#000000",

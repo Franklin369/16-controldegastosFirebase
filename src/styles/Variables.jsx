@@ -1,5 +1,7 @@
 import {IoIosArrowDown} from "react-icons/io"
 import {RiVipCrownFill} from "react-icons/ri"
+import {GiPadlock} from "react-icons/gi"
+import zorro from "../assets/zorro.json"
 export const v={
     sidebarWidth: `300px`,
     sidebarWidthInitial: `10vw`,
@@ -19,5 +21,14 @@ export const v={
    checkbox: `#292929`,
    iconoFlechabajo:IoIosArrowDown,
    iconocorona:RiVipCrownFill,
+   boxshadowGray:`box-shadow: -2px 14px 20px -4px rgba(0,0,0,0.4);
+   -webkit-box-shadow: -2px 14px 20px -4px rgba(0,0,0,0.4);
+   -moz-box-shadow: -2px 14px 20px -4px rgba(0,0,0,0.4);`,
+   colorIngresos:`#53B257`,
+   colorbgingresos:`#e6ffe7`,
+   colorGastos:`#F54E41`,
+   colorbgGastos:`#fbcbc9`,
+   zorrologo:zorro,
+   iconocandado:GiPadlock,
 
 }
